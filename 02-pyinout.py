@@ -1,0 +1,1 @@
+print (f"{input("what is your name? ")} likes {input("What do you like? ")}.")
