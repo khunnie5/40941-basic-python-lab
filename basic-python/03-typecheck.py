@@ -1,0 +1,1 @@
+a,b,c=10,3.5,"python";print(f"{a} {type(a)}\n{b} {type(b)}\n{c} {type(c)}")

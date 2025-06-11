@@ -1,0 +1,1 @@
+#for practicing print() input() len() and type() and for debug ok wow 
