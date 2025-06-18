@@ -1,0 +1,1 @@
+from math import sqrt;(lambda a:print(sqrt((a[2]-a[0])**2+(a[3]-a[1])**2)))(list(map(int,input().split())))

@@ -1,0 +1,1 @@
+(lambda a:print(f"Trays: {int(a//30)} Remaining: {a%30}"))(int(input()))

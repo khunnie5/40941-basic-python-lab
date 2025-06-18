@@ -1,0 +1,1 @@
+print(round(float(input())*35/1000,2))

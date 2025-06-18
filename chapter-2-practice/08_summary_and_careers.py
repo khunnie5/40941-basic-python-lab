@@ -1,0 +1,1 @@
+(lambda a:print(f"Each person pays: {a[0]*(100+a[1])/100/a[2]}"))(list(map(float,input().split())))

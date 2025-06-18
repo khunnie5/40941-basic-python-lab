@@ -1,0 +1,1 @@
+(lambda a:print(f"Product: {a[0]}, Price: {a[1]} THB"))((lambda b:[str(b[0]),float(b[1])])(input().split()))
