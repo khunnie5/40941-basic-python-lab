@@ -1,0 +1,1 @@
+print("your grade is "+"F D D+ C C+ B B+ A".split()[sorted((0,7,int(input("input score: "))//5-9))[1]])

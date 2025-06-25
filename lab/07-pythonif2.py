@@ -1,0 +1,1 @@
+print("is A" if input()=='A' else "not A")

@@ -1,0 +1,1 @@
+print("Freezing Cold Warm Hot".split()[-(max(0,min(31,int(input())))//-15)])
