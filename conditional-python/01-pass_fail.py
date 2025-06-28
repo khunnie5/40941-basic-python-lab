@@ -1,1 +1,1 @@
-print("pass"if(int(input())>=50)else"fail")
+print("pass"if(int(input())>=50)else"fail") 
