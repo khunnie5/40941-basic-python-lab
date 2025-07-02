@@ -1,0 +1,1 @@
+(lambda a:print(a*(next(x for i,x in ((2000,85),(1000,90),(500,95),(0,100)) if i<a))/100))(float(input())) 

@@ -1,0 +1,1 @@
+a=int(input());b=int(input());print((next(x for i,x in ((60,120),(13,180),(0,100)) if i<a))+50*(b>5))

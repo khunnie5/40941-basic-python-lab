@@ -1,0 +1,1 @@
+a=int(input());print(("Not "*(a<18))+"Eligible")

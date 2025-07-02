@@ -1,0 +1,1 @@
+a=int(input());print("Week"+("day" if a<6 else "end"))
