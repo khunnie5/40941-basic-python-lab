@@ -1,0 +1,1 @@
+n=int(input());n-=(n%2);print(int(n*n/4+n/2))

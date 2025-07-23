@@ -1,0 +1,1 @@
+a=b=int(input());exec("b-=1;print(a-b);"*a)

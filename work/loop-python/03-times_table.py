@@ -1,0 +1,1 @@
+a,x=1,int(input());exec("print(f\"{x} * {a} = {x*a}\");a+=1;"*12)
