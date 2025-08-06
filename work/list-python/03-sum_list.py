@@ -1,0 +1,1 @@
+print(sum(map(int,map(input,['']*int(input())))))

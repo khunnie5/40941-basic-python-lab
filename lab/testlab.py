@@ -1,0 +1,1 @@
+a=list(map(int,map(input,['']*int(input()))));print(min(a));print(max(a))

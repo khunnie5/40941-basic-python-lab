@@ -1,0 +1,1 @@
+e,o=[],[];_=[(e:=e+[a]) if a%2==0 else (o:=o+[a]) for a in map(int,map(input,['']*int(input())))];print(f'even: {e}\nodd: {o}')

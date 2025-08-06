@@ -1,0 +1,1 @@
+a=list(map(int,map(input,['']*int(input()))))print(f"before: {a}\nafter: {sorted(a)}")

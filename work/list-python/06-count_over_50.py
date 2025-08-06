@@ -1,0 +1,1 @@
+c=0;exec("c+=1*(int(input())>50);"*int(input()));print(c)
