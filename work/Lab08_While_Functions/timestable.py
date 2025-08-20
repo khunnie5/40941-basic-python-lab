@@ -1,0 +1,1 @@
+i,n,l=1,*map(lambda a:int(input(a).split('=')[1]),['']*2);exec('print(f"{n} x {i} = {n*i}");i+=1;'*l)

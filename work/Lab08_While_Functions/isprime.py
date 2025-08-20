@@ -1,0 +1,1 @@
+n=int(input());print(n,'primt'*all(n%m for m in range(2,n)) or 'not prime')

@@ -1,0 +1,1 @@
+a=b=0;exec('while (b:=int(input())):\n  a+=b');print(f'sum: {a}')

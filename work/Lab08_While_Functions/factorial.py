@@ -1,0 +1,1 @@
+f=1;i=n=int(input());exec('f*=n;n-=1;'*(n-1));print(f'{i}! = {f or 1}')

@@ -1,0 +1,1 @@
+a=b=0;c,p=[],lambda i:all(i%m for m in range(2,i));exec('while (b:=int(input())):\n  c+=[f"{b} {"prime"*p(b) or"not prime"}"]');print(*c,sep='\n')
