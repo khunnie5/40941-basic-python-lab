@@ -1,0 +1,1 @@
+print('OK'*(input().split()[0].lower()=='have')or'NO')

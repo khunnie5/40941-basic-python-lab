@@ -1,0 +1,1 @@
+a=b=0;c,d=map(input,['']*2);exec('a+=(c[b]==d);b+=1;'*len(c));print(a)

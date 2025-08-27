@@ -1,0 +1,1 @@
+w,s=-1,input();exec('while s[w].isalpha():\n   w-=1');print(f'in {s[0]} years i have spotted {s[1:w+1]} {s[w+1:]}.')

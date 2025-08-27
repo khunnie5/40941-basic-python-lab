@@ -1,0 +1,1 @@
+s=input();n=(len(s)-len(s)%2)//2;print(f'A {"equals"*(s[:n]==s[n:]) or "comes "+("before"*(s[:n]<s[n:])or"after")} B')
