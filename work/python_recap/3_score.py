@@ -1,0 +1,1 @@
+print('pass'*(int(input())>=50)or'fail')

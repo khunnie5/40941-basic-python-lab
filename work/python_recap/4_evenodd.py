@@ -1,0 +1,1 @@
+print('odd'*(int(input())%2)or'even')

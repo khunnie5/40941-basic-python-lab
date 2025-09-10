@@ -1,7 +1,7 @@
 import random
 
 temp=c1=c2=score1=score2=0
-contestants,winners=[],[]
+contestants=[]
 c=int(input())
 l=int(input())
 for x in range(c):
@@ -51,10 +51,10 @@ while len(contestants)>1:
         print(f'-- result: {contestants[c1][0]} deck:|{contestants[c1][1]}| and {contestants[c2][0]} deck:|{contestants[c2][1]}| --')
         if not len(contestants[c1][1]):
             print(contestants[c1][0],"has been elimitated")
-            winners+=contestants.pop(c1)
+            contestants.pop(c1)
         elif not len(contestants[c2][1]):
             print(contestants[c2][0],"has been elimitated")
-            winners+=contestants.pop(c2)
+            contestants.pop(c2)
         print('')
 print(f'\n--finished--\nwinner: {contestants[0][0]} with deck |{contestants[0][1]}| and {contestants[0][2]} victories')
-print(winners)
+    

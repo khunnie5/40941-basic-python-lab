@@ -1,0 +1,1 @@
+a,b=int(input()),1;exec('print(f"{a} x {b} = {a*b}");b+=1;'*12)
